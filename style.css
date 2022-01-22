@@ -12,10 +12,10 @@ body {
   border-top: 10px solid #1098ad;
 }
 
-.container {
+/* .container {
   width: 700px;
   margin: 0 auto;
-}
+} */
 
 .main-header {
   background-color: #f7f7f7;
@@ -40,12 +40,20 @@ article {
   height: auto;
 }
 
-/* nav a:link {
-  background-color: red;
+nav a:link {
+  /* background-color: red;
   padding: 20px;
   margin: 20px;
-  display: block;
-} */
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 aside {
   background-color: #f7f7f7;
@@ -94,12 +102,13 @@ p {
 ul,
 ol {
   margin-left: 50px;
-  margin-bottom: 2ppx;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
   margin-bottom: 20px;
+  /* display: inline; */
 }
 
 li:last-child {
