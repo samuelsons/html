@@ -45,7 +45,7 @@ nav a:link {
   /* background-color: red;
   padding: 20px;
   margin: 20px;
-  display: block; */
+  display: block; */Mosh Hamedani - CSS
 
   margin-right: 30px;
   margin-top: 10px;
@@ -216,5 +216,21 @@ h1::first-letter {
 }
 
 p::first-line {
-  color: rebeccapurple;
+  color: rgb(247, 4, 146);
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  /* display: inline-block; */
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
