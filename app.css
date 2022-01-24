@@ -8,6 +8,19 @@
   margin: 0 auto;
   width: 825px;
   margin-top: 100px;
+  position: relative;
+}
+
+.sale-button {
+  padding: 5px;
+  width: 70px;
+  border: none;
+  color: #fff;
+  background-color: rgb(255, 0, 98);
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: -40px;
 }
 
 body {
@@ -45,8 +58,41 @@ body {
   text-decoration: none;
 }
 
+.product-options {
+  background-color: #000;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blue {
+  background-color: rgb(1, 128, 231);
+}
+
+.red {
+  background-color: rgb(231, 1, 58);
+}
+
+.orange {
+  background-color: rgb(231, 93, 1);
+}
+
+.green {
+  background-color: rgb(1, 231, 135);
+}
+
+.brown {
+  background-color: rgb(129, 67, 16);
+}
+
 .product-detail-title {
-  margin-top: 15px;
+  margin-top: 25px;
   font-weight: bold;
 }
 
@@ -73,7 +119,6 @@ body {
   text-transform: uppercase;
   background-color: #fff;
   border-top: 3px solid #000;
-
   color: #000;
 }
 
