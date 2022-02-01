@@ -13,13 +13,12 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .main-header {
-  background-color: #f7f7f7;
-  background-color: #e71919;
+  background-color: #d8d8d8;
   padding: 20px 40px;
   margin-bottom: 50px;
 
@@ -32,6 +31,8 @@ nav {
 
 article {
   margin-bottom: 60px;
+  width: 845px;
+  float: left;
 }
 .post-header {
   margin-bottom: 50px;
@@ -46,7 +47,7 @@ nav a:link {
   /* background-color: red;
   padding: 20px;
   margin: 20px;
-  display: block; */Mosh Hamedani - CSS
+  display: block; */
 
   margin-right: 30px;
   margin-top: 10px;
@@ -70,8 +71,9 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 50px;
-  /* width: 500px; */
+  /* padding: 50px 50px; */
+  float: right;
+  width: 300px;
 }
 
 h1,
@@ -264,6 +266,19 @@ nav {
 
 .clearfix::after {
   clear: both;
-  content: "";
   display: block;
+}
+
+article {
+  background-color: blueviolet;
+}
+
+aside {
+  background-color: coral;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: #ffe70e;
+  clear: both;
 }
