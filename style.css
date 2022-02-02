@@ -1,6 +1,8 @@
 * {
+  /* Default CSS Reset Template */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Page Sections */
@@ -74,7 +76,6 @@ aside {
   padding: 50px 40px;
   float: right;
   width: 300px;
-  box-sizing: border-box;
 }
 
 h1,
@@ -105,6 +106,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 p {
