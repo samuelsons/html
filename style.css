@@ -31,7 +31,7 @@ nav {
 
 article {
   margin-bottom: 60px;
-  width: 845px;
+  width: 825px;
   float: left;
 }
 .post-header {
@@ -71,9 +71,10 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding: 50px 50px; */
+  padding: 50px 40px;
   float: right;
   width: 300px;
+  box-sizing: border-box;
 }
 
 h1,
@@ -153,6 +154,7 @@ li:last-child {
 
 .related-posts {
   list-style: none;
+  margin-left: 0;
 }
 
 /* 
@@ -270,15 +272,15 @@ nav {
 }
 
 article {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 aside {
-  background-color: coral;
+  /* background-color: coral; */
   padding-top: 50px;
 }
 
 footer {
-  background-color: #ffe70e;
+  /* background-color: #ffe70e; */
   clear: both;
 }
